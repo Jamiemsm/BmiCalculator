@@ -17,7 +17,7 @@ namespace BmiCalculator
 			string[] alleLinjer = File.ReadAllLines("DB.txt");
 		}
 
-		static public void Writer(int height, int weight)
+		static public void Writer(double height, double weight)
 		{
 			StreamWriter sw = new StreamWriter("DB.txt");
 			sw.WriteLine("height: " + height);

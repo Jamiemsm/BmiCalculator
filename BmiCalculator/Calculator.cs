@@ -8,9 +8,9 @@ namespace BmiCalculator
 {
     class Calculator
     {
-        public int Heigth;
-        public int Weigth;
-        public int bmi;
+        public double Heigth;
+        public double Weigth;
+        public double bmi;
 
         public void Calulate()
         {
