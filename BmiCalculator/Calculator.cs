@@ -12,7 +12,7 @@ namespace BmiCalculator
         public double Weigth;
         public double bmi;
 
-        public void Calulate()
+        public void Calulate(double weight, double height)
         {
             bmi = (Weigth / (Heigth * Heigth)) * 703;
 			DB.Writer(Heigth, Weigth);
