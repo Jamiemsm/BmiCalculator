@@ -5,6 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BmiCalculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="700">
-    <Grid/>
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/Fat-Bastard.jpg"/>
+        </Grid.Background>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="45,153,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="137"/>
+        <Label Content="BEREGN DIT BMI" HorizontalAlignment="Left" Margin="45,93,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontSize="20px"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="45,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="137"/>
+        <Button Content="Beregn BMI" HorizontalAlignment="Left" Margin="250,252,0,0" VerticalAlignment="Top" Width="168" Height="72" Foreground="White" FontSize="20px" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-46.462"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush ImageSource="images/sandwich-11528343621s1bqdchhxi.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
 </Window>
