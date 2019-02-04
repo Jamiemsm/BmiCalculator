@@ -15,7 +15,7 @@ namespace BmiCalculator
         public void Calulate()
         {
             bmi = (Weigth / (Heigth * Heigth)) * 703;
-            
+			DB.Writer(Heigth, Weigth);
         }
 
 

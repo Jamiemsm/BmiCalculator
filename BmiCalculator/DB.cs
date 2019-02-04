@@ -7,18 +7,17 @@ using System.Threading.Tasks;
 
 namespace BmiCalculator
 {
-	class DB
+	static class DB
 	{
-		string hej = "hej salim";
 
-		static void Reader()
+		static public void Reader()
 		{
 			StreamReader sr = new StreamReader("DB.txt");
 
 			string[] alleLinjer = File.ReadAllLines("DB.txt");
 		}
 
-		static void Writer(int height, int weight)
+		static public void Writer(int height, int weight)
 		{
 			StreamWriter sw = new StreamWriter("DB.txt");
 			sw.WriteLine("height: " + height);
