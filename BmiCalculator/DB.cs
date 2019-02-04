@@ -8,6 +8,6 @@ namespace BmiCalculator
 {
 	class DB
 	{
-
+		string hej = "hej salim";
 	}
 }
