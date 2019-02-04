@@ -29,7 +29,7 @@ namespace BmiCalculator
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             c1.Calulate(Convert.ToDouble(WeightBMI.Text),Convert.ToDouble(HeightBMI.Text));
-            
+            MessageBox.Show(c1.bmi.ToString());
         }
     }
 }
