@@ -5,6 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BmiCalculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="700">
-    <Grid/>
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/Fat-Bastard.jpg"/>
+        </Grid.Background>
+    </Grid>
 </Window>
