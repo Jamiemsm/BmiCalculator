@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:BmiCalculator"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="700">
-    <Grid>
-        
-    </Grid>
+    <Grid/>
 </Window>
