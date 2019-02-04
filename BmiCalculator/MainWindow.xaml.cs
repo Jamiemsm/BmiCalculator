@@ -20,9 +20,16 @@ namespace BmiCalculator
 	/// </summary>
 	public partial class MainWindow : Window
 	{
+        Calculator c1 = new Calculator();
 		public MainWindow()
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            c1.Calulate(Convert.ToDouble(WeightBMI.Text),Convert.ToDouble(HeightBMI.Text));
+            
+        }
+    }
 }
